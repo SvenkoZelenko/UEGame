@@ -1,0 +1,29 @@
+# Ignore binary files and build output
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+
+# Ignore user-specific settings
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# If you're using Rider
+.idea/
+
+# Ignore plugin intermediates
+Plugins/**/Intermediate/
+
+# If you use Wwise
+WwiseProject/GeneratedSoundBanks/
